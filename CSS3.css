@@ -1,0 +1,33 @@
+body{
+	box-shadow:1px 1px 1px #999;
+}
+
+/*Child Selectors*/
+	div:nth-child(1){
+	}
+	/*select all except first*/
+	div:not(:first-child){
+
+	}
+
+/*media queries*/
+
+	/* Large desktop */
+	@media (min-width: 1200px) {
+	}
+	 
+	/* Portrait tablet to landscape and desktop */
+	@media (min-width: 768px) and (max-width: 979px) {
+	}
+	 
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 767px) {
+	}
+	
+	/*Custom*/
+	@media (max-width: 568px) {	
+	}
+	 
+	/* Landscape phones and down */
+	@media (max-width: 480px) {	
+	}
